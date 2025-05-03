@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatVerse - Join</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="join-container">
+    <header class="join-header">
+      <h1>💬 ChatVerse</h1>
+    </header>
+    <main class="join-main">
+      <form action="chat.html">
+        <div class="form-control">
+          <label for="username">Your Name</label>
+          <input type="text" name="username" id="username" placeholder="e.g., Alex" required />
+        </div>
+        <div class="form-control">
+          <label for="room">Choose a Room</label>
+          <select name="room" id="room">
+            <option value="TechTalks">TechTalks</option>
+            <option value="DailyLife">Daily Life</option>
+            <option value="GamingZone">Gaming Zone</option>
+            <option value="MovieClub">Movie Club</option>
+            <option value="StudyCorner">Study Corner</option>
+          </select>
+        </div>
+        <button type="submit" class="btn">Join Now</button>
+      </form>
+    </main>
+  </div>
+</body>
+</html>
